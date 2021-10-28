@@ -7,9 +7,12 @@
 #include<SFML/Audio.hpp>
 #include<SFML/Network.hpp>
 
+#include "sprites.h"
+
 
 int main()
 {
+    Sprites sprites();
     // create the window
     sf::RenderWindow window(sf::VideoMode(800, 600), "Rpg Man");
 

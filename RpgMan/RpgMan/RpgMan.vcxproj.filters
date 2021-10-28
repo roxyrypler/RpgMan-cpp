@@ -13,10 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="classes">
+      <UniqueIdentifier>{0285a8ba-2826-40b3-be11-59e9a8c13454}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RpgMan.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sprites.cpp">
+      <Filter>classes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -313,6 +319,9 @@
     </ClInclude>
     <ClInclude Include="External\include\SFML\Window.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sprites.h">
+      <Filter>classes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

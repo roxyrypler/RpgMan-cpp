@@ -149,6 +149,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="RpgMan.cpp" />
+    <ClCompile Include="sprites.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="External\include\SFML\Audio.hpp" />
@@ -249,6 +250,7 @@
     <ClInclude Include="External\include\SFML\Window\Window.hpp" />
     <ClInclude Include="External\include\SFML\Window\WindowHandle.hpp" />
     <ClInclude Include="External\include\SFML\Window\WindowStyle.hpp" />
+    <ClInclude Include="sprites.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="External\include\SFML\Audio\SoundFileFactory.inl" />
